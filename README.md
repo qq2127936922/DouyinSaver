@@ -16,6 +16,21 @@
 > 实测结论：**下载不需要登录抖音**。程序用你系统里的 Edge 打开页面，截获页面自己发出的数据请求，
 > 拿到无水印播放地址和原图。只有「收藏夹」和「博主主页翻页」这两件事需要扫码登录一次。
 
+## 下载
+
+Windows 64 位免安装版，**116 MB**，解压双击 `DouyinSaver.exe` 就能用，不需要装 Python。
+
+| 下载方式 | 链接 | 实测速度 |
+|---|---|---|
+| 🚀 **镜像加速**（推荐国内用） | [gh-proxy 下载](https://gh-proxy.com/https://github.com/qq2127936922/DouyinSaver/releases/download/v1.0.0/DouyinSaver-v1.0.0-win64.zip) | **6.7 MB/s**，约 19 秒 |
+| 官方直连 | [Releases 页面](https://github.com/qq2127936922/DouyinSaver/releases/latest) | 国内约 64 KB/s，约 30 分钟 |
+
+> 官方 Release 资产托管在 Fastly CDN（`objects.githubusercontent.com`），国内线路差且单连接无分片，
+> 所以慢；镜像站相当于帮你中转一次。`Releases` 里还有 `SHA256SUMS.txt`，下完可用
+> `certutil -hashfile <文件> SHA256` 核对完整性。
+
+想自己编译或改代码，见下文 [从源码运行 / 重新打包](#从源码运行--重新打包)。
+
 ## 界面
 
 ```
