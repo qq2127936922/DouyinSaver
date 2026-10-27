@@ -1,0 +1,36 @@
+# ============ 运行数据 / 隐私（绝对不要提交）============
+# 含百度网盘 app_key / secret_key / token
+config.json
+# 备份下来的作品
+downloads/
+# 打包后的运行目录：exe + _internal + config.json + downloads
+抖音收藏助手/
+# 运行日志（selftest.log / smoke.log / 启动错误.log 等）
+*.log
+
+# ============ 浏览器登录态（体积大，且含账号 Cookie）============
+.browser/
+.probe_browser/
+
+# ============ 构建 / 缓存产物 ============
+build/
+dist/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# ============ 内部工作目录（对话记录 / 记忆，不属于项目）============
+.workbuddy/
+
+# ============ 编辑器 / 系统 ============
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ============ 临时文件 ============
+*.part
+*.tmp
+*.bak

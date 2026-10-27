@@ -1,0 +1,8 @@
+# 运行时依赖（界面 + 抓取 + 合成）
+PySide6==6.12.0
+playwright==1.64.0
+imageio-ffmpeg==0.6.0
+requests==2.34.2
+
+# 打包用（只在重新构建 exe 时需要）
+# pyinstaller==6.22.3

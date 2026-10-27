@@ -1,0 +1,37 @@
+{
+  "headless": true,
+  "duplicate": "skip",
+  "video_codec": "h264",
+  "baidu": {
+    "enabled": false,
+    "mode": "off",
+    "sync_dir": "",
+    "app_name": "",
+    "app_key": "",
+    "secret_key": "",
+    "access_token": "",
+    "refresh_token": "",
+    "expires_at": 0,
+    "redirect_uri": "http://localhost:8899/callback",
+    "remote_dir_collect": "抖音收藏",
+    "remote_dir_link": "视频备份"
+  },
+  "auto_sync": {
+    "enabled": false,
+    "interval_minutes": 10,
+    "scope": "both",
+    "like_limit": 1000,
+    "full_scan": false
+  },
+  "organize": {
+    "by_collect_folder": true,
+    "flat_in_folder": true,
+    "fallback_folder": "视频"
+  },
+  "images": {
+    "save_images": true,
+    "save_bgm": true,
+    "make_video": true,
+    "image_seconds": 2.6
+  }
+}
